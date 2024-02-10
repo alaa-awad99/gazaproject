@@ -1,0 +1,376 @@
+body {
+    margin: 0;
+font-family: 'Cairo', sans-serif;
+}
+
+#section1-organized {
+    width: 100%;
+    height: 19vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 5%;
+}
+
+.empty-div {
+    background-color: #306c81;
+    width: 100%;
+    flex: 1;
+    color: #306c81;
+}
+
+.nav-social-container {
+    background-color: #326273;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  
+}
+.nav-move{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.empty {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #326273;
+
+}
+
+.social-icon img {
+    width: 30px;
+    margin-left: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon img:hover {
+    transform: scale(1.2);
+}
+
+nav {
+    margin-left: 80px;
+    height: 8vh;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+
+nav li {
+    margin: 10px 75px 
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    
+}
+nav a:hover{
+    color: yellow;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    right: 20px; /* Adjust the right spacing */
+}
+
+.logo img {
+    width: 100px; /* Adjust the width as needed */
+    background-color: #fff;
+    margin-top: 20%;
+}
+
+#section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 90vh;
+    display: none;
+    padding: 0% 2% 0% 0%;
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: #326273;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    height: 15vh;
+    margin-top: 10%;
+}
+
+.nav-button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.nav-button:first-child {
+    right: 0px; /* Adjust the right spacing */
+}
+
+.nav-button:last-child {
+    left: 0px; /* Adjust the left spacing */
+}
+#cards {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+}
+#cards img{
+    border-radius: 10px;
+
+    width: 100%;
+}
+.card1 {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 25%;
+    height: 55vh;
+}
+
+
+.card2 {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 25%;
+    height: 55vh;
+}
+
+
+
+.card3 {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 25%;
+    height: 55vh;
+
+}
+
+/* Style for the donate button */
+.donate-button {
+    background-color: #326273;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Optional hover effect */
+.donate-button:hover {
+    background-color: #306c81;
+}
+
+.centered-content {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.centered-content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.centered-content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.horizontal-line::before,
+.horizontal-line::after {
+    content: '';
+    height: 1px;
+    background-color: #ddd;
+    position: absolute;
+    top: 50%;
+    width: 50%;
+}
+
+.horizontal-line::before {
+    left: 0;
+}
+
+.horizontal-line::after {
+    right: 0;
+}
+
+#section5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 40px 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.circle-card {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    padding: 3%;
+    border-radius: 50%;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    font-size: 12px;
+    transition: background-color 0.3s ease-in-out;
+
+}
+.circle-card a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.circle-card:hover {
+    background-color: #326273;
+    cursor: pointer;
+}
+/* Add this CSS for styling */
+
+footer {
+    display: flex;
+    background-color: #333;
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+    height: 30vh;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    margin-top: 6%;
+
+}
+
+.contact-item {
+
+    display: flex;
+    align-items: center;
+}
+
+.contact-item i {
+    margin-right: 10px;
+}
+.social-icons {
+padding-left: 35%;    
+}
+footer .social-icons img {
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
+    color: #fff;
+    border-radius: 2px;
+    width: 40px;
+    margin-left: 10px;
+    transition: transform 0.3s ease-in-out;
+    filter: grayscale(100);
+}
+
+footer .contact{
+display: flex;
+flex-direction: row;
+width: 40%;
+}
+footer .contact h2{
+color: #ffffff;
+text-align: center;
+border-right: 1px solid;
+height: 100%;
+padding-right: 20px;
+margin-top: 0;
+
+}
+.media-left h2{
+    border-left: 1px white solid ;
+    height: 100%;
+    padding-left: 20px;
+    margin-top: 0;
+}
+.media-left img{
+    width: 50%;
+    height: 100%;
+    padding-left: 5%;
+    filter: hue-rotate(240deg) brightness(0) invert(1);
+}
+
+.media-left{
+    display: flex;
+    flex-direction: row;
+    width: 52%;
+}
+.footer-social{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-social .social-icons{
+    flex-direction: row;
+    transition: transform 0.3s ease-in-out;
+
+}
+.footer-social .social-icons img:hover{
+    transform: scale(1.2);
+
+}
+
+/* Add this CSS for styling */
+
+.copyright {
+    color: #ffffff;
+    width: 100%;
+    background-color: #333;
+
+}
+
+.copyright p {
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+}
